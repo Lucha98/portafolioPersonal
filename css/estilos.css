@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    @import url(//db.onlinewebfonts.com/c/856dc513473aacbbae151adc65c6e366?family=Lust+Slim+Display);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(30deg, #E6A19B,#444D9B, #E83E8E, #F8C252);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sobremi{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.infotoda{
+    display: flex;
+    margin-top: 30px;
+    background-image : url('../images/fondocuaderno.png');
+    background-size: contain;
+}
+
+.info{
+    display: flex;
+    padding: 25px;
+    margin-left: 10px;
+}
+.info2{
+    padding-left: 50px;
+
+}
+
+h1{
+    font-family: "Lust Slim Display";
+    color: #15192D;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 12px;    
+}
+.texto{
+    background-color: #E6A19B;
+    padding: 10px;
+    margin: 10px;
+    line-height : 25px;
+}
+p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.intereses2{
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    margin-bottom: 30px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+.software{
+    background-color:#15192D;
+}
+.software2{
+    background-color:#15192D;
+    height: 200px;
+    width: auto;
+}
+h2{
+    font-family: "Lust Slim Display";
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 12px;    
+}
+p4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffff;
+}
+.flip{
+    height: 100vh;
+    }
