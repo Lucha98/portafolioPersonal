@@ -9,26 +9,26 @@ body{
 .logo{
     display: flex;
     justify-content: center;
+    align-items: center;
     background:linear-gradient(30deg, #E6A19B,#444D9B, #E83E8E, #F8C252);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 .sobremi{
     display: flex;
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-top: 5vh;
+    margin-left: 1vh;
 }
 .infotoda{
     display: flex;
-    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
     background-image : url('../images/fondocuaderno.png');
-    background-size: contain;
+    background-size: 100vh;
 }
-
-.info{
-    display: flex;
-    padding: 25px;
-    margin-left: 10px;
+.yo{
+    height: 120vh;
 }
 .info2{
     padding-left: 50px;
@@ -44,25 +44,33 @@ h1{
 }
 .texto{
     background-color: #E6A19B;
-    padding: 10px;
-    margin: 10px;
+    padding: 2vh;
+    margin: 2vh;
     line-height : 25px;
 }
 p2{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
-.intereses2{
-    margin-top: 20px;
-    height: 100px;
-    width: auto;
-    margin-bottom: 30px;
-}
-.items{
+.intereses{
+    margin: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5vh;
+    height: relative;
+    width: auto;
 }
+
+.text{
+    text-align: center;
+padding-top: 2vh;
+margin-left: 10vh;
+}
+.caja{
+    margin: 5vh;
+}
+
 p3{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -70,12 +78,22 @@ p3{
 }
 .software{
     background-color:#15192D;
+    padding-top: 2vh;
+    padding-bottom: vh
+;
+    
 }
 .software2{
-    background-color:#15192D;
-    height: 200px;
+    margin: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    height: relative;
     width: auto;
+    padding-bottom: 2vh;
 }
+
 h2{
     font-family: "Lust Slim Display";
     color: #ffffff;
@@ -92,3 +110,14 @@ p4{
 .flip{
     height: 100vh;
     }
+p{
+    font-family: "Lust Slim Display";
+    font-size: 50px;
+    color: #15192D;
+    
+}
+.portafolio{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 1vh;
+}
